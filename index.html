@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="registration _flex">
+            <h3>Fill out the form</h3>
+            <select class="languages">
+                <option value="Uzbek">Uzbek</option>
+                <option value="Russian">Russian</option>
+                <option value="English" selected>English</option>
+            </select>
+            <form action="" name="registration" class="_flex">
+                <div class="line"></div>
+                <p>Personal Data</p>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Surname">
+                <div class="birthday _flex">
+                    <span>Date of your birthday</span>
+                    <input type="date">
+                </div>
+                <div class="privacy _flex">
+                    <div class="line"></div>
+                    <p>Privacy</p>
+                    <input type="email" required placeholder="example@gmail.com">
+                    <div class="password-eye _flex">
+                        <input class="eye" type="password" required placeholder="password">
+                        <img class="eye-off" src="icons/eye-off.svg" alt="">
+                    </div>
+                    <div class="password-eye _flex">
+                        <input class="eye" type="password" required placeholder="repeat your password">
+                        <img class="eye-off" src="icons/eye-off.svg" alt="">
+                    </div>
+                    <input type="text" value="tel: (+1)" disabled>
+                    <input type="number" required placeholder="telephone number">
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
